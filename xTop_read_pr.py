@@ -1,11 +1,11 @@
 #%%
 import xTop
-import numpy as np
+# import numpy as np
 import pandas as pd
 
 import sys
 #%%
-pr_file = None
+pr_file = r'./test_file3.tsv'
 
 #read python arguement
 if len(sys.argv) > 1:
